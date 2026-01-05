@@ -10,3 +10,7 @@ explicit reasoning stages—identification, analysis, and planning—before reco
 search allows the system to map novel incidents to historically documented threat patterns, improving consistency and response 
 quality. This approach aligns AI assistance with established cybersecurity best practices while preserving human oversight 
 and auditability.
+
+In addition to structured response frameworks, prior research highlights the importance of auditability and post-incident learning in mature security operations. Maintaining detailed incident timelines, decision rationales, and action logs enables organizations to conduct forensic analysis, meet regulatory requirements, and continuously improve response strategies. Redline incorporates persistent audit logging as a first-class design principle, ensuring that every analyst interaction and AI recommendation can be reviewed, validated, and learned from after an incident is resolved.
+
+Furthermore, studies in human–AI collaboration emphasize that AI systems are most effective when they reduce cognitive load without removing human control. By explicitly preventing autonomous actions and requiring analyst confirmation at every stage, Redline aligns with human-in-the-loop safety research. The system’s question-driven analysis phase reflects findings that guided inquiry improves situational awareness and reduces false positives. This design ensures that AI augments analyst expertise rather than replacing critical human judgment.
